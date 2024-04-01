@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Define o tipo de documento -->
+<html>
+<head>
+    <title>Meu Portfólio</title> <!-- Título do site -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <header>
+        <nav> <!-- Menu de navegação -->
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal -->
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+            <p>Olá! Me chamo Adriel, tenho 24 anos e sou estudante de Análise e Desenvolvimento de Sistemas e trabalho como estagiário em uma empresa de consultoria de tecnologia.</p> 
+            <p>Quando não estou trabalhando ou estudando, gosto de estar passando tempo com familia e amigos; ou sozinho mesmo lendo livros de auto-desenvolvimento ou filosofia.</p> 
+            <p>Nesse ano também quero iniciar algum tipo de atividade física. (Manda embora o sedentárismo!)</p>  
+        </section>
+        <section id="formacao">
+            <h1>Formação</h1>
+            <p>Estou atualmente no meu segundo semestre de ADS. </p>
+            <p>Sou fluente em inglês. Classificação C1</p>
+        </section>
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+            <p> No link a seguir, você vai encontrar inúmeros tipos de projetos, grande maoria deles em java (minha stack favorita rsrs), mas também projetos em html, css, etc.</p>
+            <p><a href="https://github.com/AdrielDV?tab=repositories" target="_blank"> Meu Repositório </a></p>
+        </section>
+        <section id="contato"> <!-- Seção "Contato" -->
+            <h1>Contato</h1>
+            <form> <!-- Formulário de contato -->
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer> <!-- Rodapé do site -->
+        <p>© 2024 Meu Portfólio</p>
+    </footer>
+</body>
+</html>
